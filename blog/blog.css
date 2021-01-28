@@ -138,35 +138,35 @@ span {
 }
 
 .twitter {
-    background-image: url(/images/twitter.PNG);
+    background-image: url(/images/twitter.png);
   }
   
   .facebook {
-    background-image: url(/images/facebook.PNG);
+    background-image: url(/images/facebook.png);
   }
 
   .google {
-    background-image: url(/images/google.PNG);
+    background-image: url(/images/google.png);
   }
 
   .pintrest {
-    background-image: url(/images/pintrest.PNG);
+    background-image: url(/images/pintrest.png);
   }
 
   .socials .twitter:hover {
-      background-image: url(/images/white\ twitter.PNG);
+      background-image: url(/images/white\ twitter.png);
   }
 
   .socials .facebook:hover {
-    background-image: url(/images/white\ facebook.PNG);
+    background-image: url(/images/white\ facebook.png);
 }
 
 .socials .google:hover {
-    background-image: url(/images/white\ google.PNG);
+    background-image: url(/images/white\ google.png);
 }
 
 .socials .pintrest:hover {
-    background-image: url(/images/white\ pintrest.PNG);
+    background-image: url(/images/white\ pintrest.png);
 }
 
 @media (max-width: 580px) {
