@@ -1,0 +1,203 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+  .header {
+    margin: 44px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav {
+    margin: 56px 0 50px;
+}
+
+ul {
+   display: flex;
+   flex-direction: row;
+  }
+
+  li a {
+    margin: 23px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;   
+    text-decoration: none;
+    color: black
+  }
+
+  a:hover {
+      color: #0ba39c;
+  }
+
+  .banner {
+      font-family: Poller One;
+      background: #252525;
+      padding: 15px 28px 12px 28px;
+      color: white;
+      font-size: 35px;
+      margin-bottom: 24px;
+  }
+
+  .blog-1, .blog-2, .blog-3 {
+      display: flex;
+      flex-direction: row;
+      width: 940px;
+      border: 2px solid #1a1a1a;
+      margin-bottom: 14px;
+  }
+
+  .blog-1 div, .blog-2 div, .blog-3 div {
+    border-left: 2px solid #1a1a1a;
+    display: block;
+    text-align: center;
+    padding-top: 63px;
+  }
+
+  .blog-1 img, .blog-2 img, .blog-3 img {
+      opacity: .8;
+      transition: opacity .8s;
+  }
+
+  .blog-1 img:hover, .blog-2 img:hover, .blog-3 img:hover {
+    opacity: 1;
+}
+
+  h1 {
+    color: #252525;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 25px;
+  }
+
+  p {
+    color: #252525;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 30px 30px 18px
+  }
+
+  .body a {
+      color: #1a1a1a;
+  }
+
+  .body a:hover {
+      color: gray
+  }
+  
+  a.more {
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 8px 28px;
+    text-decoration: none;
+  }
+
+  .footer {
+    height: 122px;
+    width: 100%;
+    background-color: #252525;
+    margin: 30px 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-footer {
+    color: white;
+    width: 960px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials div {
+    margin-left: 20px;
+    height: 38px;
+    width: 38px;
+    border: 2px solid white;
+}
+
+.twitter {
+    background-image: url(/images/twitter.PNG);
+  }
+  
+  .facebook {
+    background-image: url(/images/facebook.PNG);
+  }
+
+  .google {
+    background-image: url(/images/google.PNG);
+  }
+
+  .pintrest {
+    background-image: url(/images/pintrest.PNG);
+  }
+
+  .socials .twitter:hover {
+      background-image: url(/images/white\ twitter.PNG);
+  }
+
+  .socials .facebook:hover {
+    background-image: url(/images/white\ facebook.PNG);
+}
+
+.socials .google:hover {
+    background-image: url(/images/white\ google.PNG);
+}
+
+.socials .pintrest:hover {
+    background-image: url(/images/white\ pintrest.PNG);
+}
+
+@media (max-width: 580px) {
+    li a {
+        margin: 8px
+    }
+
+    .socials div {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .blog-1, .blog-2, .blog-3 {
+        display: flex;
+        flex-direction: column;
+        width: 376px;
+        border: 2px solid #1a1a1a;
+        margin-bottom: 14px;
+    }
+        .blog-1 div, .blog-2 div, .blog-3 div {
+            border-left: 0;
+            display: block;
+            text-align: center;
+            padding-top: 16px;
+          }
+
+          h1 {
+            font-size: 21px;
+          }
+           
+          a.more {
+            margin: 20px;
+          }
+}

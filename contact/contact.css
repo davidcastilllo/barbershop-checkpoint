@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+  .header {
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav {
+    margin: 56px 0 50px;
+}
+
+ul {
+   display: flex;
+   flex-direction: row;
+  }
+
+  li a {
+    margin: 23px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;   
+    text-decoration: none;
+    color: black
+  }
+
+  a:hover {
+      color: #0ba39c;
+  }
+
+  .banner {
+      font-family: Poller One;
+      background: #252525;
+      padding: 15px 28px 12px 28px;
+      color: white;
+      font-size: 35px;
+      margin-bottom: 24px;
+  }
+
+  form input, textarea{
+    margin-bottom: 37px;
+    padding: 20px 10px;
+    border: 2px solid #252525;
+    width: 620px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  form #send {
+  background: #252525;
+  color: #fff;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 15px;
+  padding: 20px 28px;
+  width: auto;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    height: 122px;
+    width: 100%;
+    background-color: #252525;
+    margin: 30px 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-footer {
+    color: white;
+    width: 960px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials div {
+    margin-left: 20px;
+    height: 38px;
+    width: 38px;
+    border: 2px solid white;
+}
+
+.twitter {
+    background-image: url(/images/twitter.PNG);
+  }
+  
+  .facebook {
+    background-image: url(/images/facebook.PNG);
+  }
+
+  .google {
+    background-image: url(/images/google.PNG);
+  }
+
+  .pintrest {
+    background-image: url(/images/pintrest.PNG);
+  }
+
+  .socials .twitter:hover {
+      background-image: url(/images/white\ twitter.PNG);
+  }
+
+  .socials .facebook:hover {
+    background-image: url(/images/white\ facebook.PNG);
+}
+
+.socials .google:hover {
+    background-image: url(/images/white\ google.PNG);
+}
+
+.socials .pintrest:hover {
+    background-image: url(/images/white\ pintrest.PNG);
+}
+
+@media (max-width: 580px) {
+  li a {
+      margin: 8px
+  }
+
+  .socials div {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .banner {
+    font-size: 20px;
+  }
+
+  form input, textarea{
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    width: 430px;
+  }
+
+}
