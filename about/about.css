@@ -101,7 +101,7 @@ ul {
     margin-left: 10px;
   }
 
-  .socials {
+ .socials {
       display: flex;
   }
 
@@ -113,37 +113,35 @@ ul {
   }
 
   .twitter {
-    background-image: url(/images/twitter.png);
+    background-image: url("/images/twitter.png");
   }
   
   .facebook {
-    background-image: url(/images/facebook.png);
+    background-image: url("/images/facebook.png");
   }
 
   .google {
-    background-image: url(/images/google.png);
+    background-image: url("/images/google.png");
   }
 
   .pintrest {
-    background-image: url(/images/pintrest.png);
+    background-image: url("/images/pintrest.png");
   }
 
-
-
   .socials .twitter:hover {
-      background-image: url(/images/white\ twitter.png);
+      background-image: url("/images/white-twitter.png")
   }
 
   .socials .facebook:hover {
-    background-image: url(/images/white\ facebook.png);
+    background-image: url("/images/white-facebook.png");
 }
 
 .socials .google:hover {
-    background-image: url(/images/white\ google.png);
+    background-image: url("/images/white-google.png");
 }
 
 .socials .pintrest:hover {
-    background-image: url(/images/white\ pintrest.png);
+    background-image: url("/images/white-pintrest.png");
 }
 
 @media (max-width: 580px) {

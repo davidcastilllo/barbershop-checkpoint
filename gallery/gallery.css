@@ -62,47 +62,47 @@ transition: opacity .8s;
 }
 
 .pic-one {
-    background-image: url(/images/mustache1.jpg);
+    background-image: url("/images/mustache1.jpg");
     grid-area: one;
 }
 
 .pic-two {
-    background-image: url(/images/mustache2.jpg);
+    background-image: url("/images/mustache2.jpg");
     grid-area: two;
 }
 
 .pic-three {
-    background-image: url(/images/mustache3.jpg);
+    background-image: url("/images/mustache3.jpg");
     grid-area: three;
 }
 
 .pic-four {
-    background-image: url(/images/mustache4.jpg);
+    background-image: url("/images/mustache4.jpg");
     grid-area: four;
 }
 
 .pic-five {
-    background-image: url(/images/mustache5.jpg);
+    background-image: url("/images/mustache5.jpg");
     grid-area: five 
 }
 
 .pic-six {
-    background-image: url(/images/mustache6.jpg);
+    background-image: url("/images/mustache6.jpg");
     grid-area: six;
 }
 
 .pic-seven {
-    background-image: url(/images/mustache7.jpg);
+    background-image: url("/images/mustache7.jpg");
     grid-area: seven;
 }
 
 .pic-eight {
-    background-image: url(/images/mustache8.jpg);
+    background-image: url("/images/mustache8.jpg");
     grid-area: eight;
 }
 
 .pic-nine {
-    background-image: url(/images/mustache9.jpg);
+    background-image: url("/images/mustache9.jpg");
     grid-area: nine;
 }
 
@@ -151,37 +151,35 @@ span {
 }
 
 .twitter {
-  background-image: url(/images/twitter.png);
-}
+    background-image: url("/images/twitter.png");
+  }
+  
+  .facebook {
+    background-image: url("/images/facebook.png");
+  }
 
-.facebook {
-  background-image: url(/images/facebook.png);
-}
+  .google {
+    background-image: url("/images/google.png");
+  }
 
-.google {
-  background-image: url(/images/google.png);
-}
+  .pintrest {
+    background-image: url("/images/pintrest.png");
+  }
 
-.pintrest {
-  background-image: url(/images/pintrest.png);
-}
+  .socials .twitter:hover {
+      background-image: url("/images/white-twitter.png")
+  }
 
-
-
-.socials .twitter:hover {
-    background-image: url(/images/white\ twitter.png);
-}
-
-.socials .facebook:hover {
-  background-image: url(/images/white\ facebook.png);
+  .socials .facebook:hover {
+    background-image: url("/images/white-facebook.png");
 }
 
 .socials .google:hover {
-  background-image: url(/images/white\ google.png);
+    background-image: url("/images/white-google.png");
 }
 
 .socials .pintrest:hover {
-  background-image: url(/images/white\ pintrest.png);
+    background-image: url("/images/white-pintrest.png");
 }
 
 @media (max-width: 580px) {
