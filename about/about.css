@@ -1,0 +1,169 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+  .header {
+    margin: 44px 0 30px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav {
+    margin: 56px 0 50px;
+    
+}
+
+ul {
+   display: flex;
+   flex-direction: row;
+  }
+
+  li a {
+    margin: 23px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;   
+    text-decoration: none;
+    color: black
+  }
+
+  a:hover {
+      color: #0ba39c;
+  }
+
+  .banner {
+      font-family: Poller One;
+      background: #252525;
+      padding: 15px 28px 12px 28px;
+      color: white;
+      font-size: 35px;
+      margin-bottom: 24px;
+  }
+
+  .header .photographer {
+    border: 2px solid #292929;
+  }
+
+  .body {
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 24px;
+     padding: 30px;
+     width: 554px;
+  }
+
+  h3 {
+    color: #252525;
+    font-weight: bold;
+    font-size: 16.38px;
+  }
+
+  p {
+      color: #252525;
+      margin-bottom: 30px;
+      font-size: 14px;
+  }
+
+  a {
+      color: #252525;
+  }
+
+  .body a:hover {
+      color: gray;
+  }
+
+  .footer {
+      height: 122px;
+      width: 100%;
+      background-color: #252525;
+      margin: 30px 0 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .inside-footer {
+      color: white;
+      width: 960px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  span {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+ .socials {
+      display: flex;
+  }
+
+  .socials div {
+      margin-left: 20px;
+      height: 38px;
+      width: 38px;
+      border: 2px solid white;
+  }
+
+  .twitter {
+    background-image: url("/images/twitter.png");
+  }
+  
+  .facebook {
+    background-image: url("/images/facebook.png");
+  }
+
+  .google {
+    background-image: url("/images/google.png");
+  }
+
+  .pintrest {
+    background-image: url("/images/pintrest.png");
+  }
+
+  .socials .twitter:hover {
+      background-image: url("/images/white-twitter.png")
+  }
+
+  .socials .facebook:hover {
+    background-image: url("/images/white-facebook.png");
+}
+
+.socials .google:hover {
+    background-image: url("/images/white-google.png");
+}
+
+.socials .pintrest:hover {
+    background-image: url("/images/white-pintrest.png");
+}
+
+@media (max-width: 580px) {
+    li a {
+        margin: 8px
+    }
+
+    .banner {
+        font-size: 25px;
+    }
+
+    .header .photographer {
+        height: 200px;
+      }
+    
+    .body {
+        width: 440px;
+        padding: 20px;
+    }
+
+    .socials div {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
